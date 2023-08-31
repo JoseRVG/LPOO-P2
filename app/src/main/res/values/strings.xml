@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Worms World</string>
+    <string name="left">Left</string>
+    <string name="jump">Jump</string>
+    <string name="right">Right</string>
+    <string-array name="map">
+        <item>Ship</item>
+        <item>Snowman</item>
+        <item>Dinosaurs</item>
+        <item>Desert</item>
+        <item>Tycoon</item>
+        <item>Volcano</item>
+        <item>Japan</item>
+    </string-array>
+</resources>

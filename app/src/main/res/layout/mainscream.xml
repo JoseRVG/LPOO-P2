@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/wormsfacebook"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="47dp"
+        android:id="@+id/btnResetScores"
+        android:layout_gravity="bottom"
+        android:background="@drawable/recyler" />
+
+    <Button
+        android:layout_width="78dp"
+        android:layout_height="111dp"
+        android:id="@+id/one_on_one"
+        android:layout_weight="0.15"
+        android:background="@drawable/gamemenubtn" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="17dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.21">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.27"></LinearLayout>
+
+    <Button
+        android:layout_width="78dp"
+        android:layout_height="111dp"
+        android:id="@+id/btnZoomIn"
+        android:background="@drawable/exit10951491"
+        android:layout_weight="0.20" />
+
+</LinearLayout>

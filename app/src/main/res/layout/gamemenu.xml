@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamemenu"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.04">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="map:"
+            android:id="@+id/textView2"
+            android:layout_weight="0.04"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_alignBottom="@+id/spinner"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#f9f5f5" />
+
+        <Spinner
+            android:layout_width="220dp"
+            android:layout_height="32dp"
+            android:id="@+id/spinner"
+            android:spinnerMode="dropdown"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_marginTop="21dp"
+            android:background="#c8c6c6" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/mapView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView5"
+            android:layout_toLeftOf="@+id/btnGame"
+            android:layout_toStartOf="@+id/btnGame" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnGame"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="visible"
+            android:background="@drawable/startbutton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView5"
+            android:text="                          "
+            android:layout_below="@+id/spinner"
+            android:layout_alignLeft="@+id/spinner"
+            android:layout_alignStart="@+id/spinner"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textLevelHighScore"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignRight="@+id/mapView"
+            android:layout_alignEnd="@+id/mapView"
+            android:background="@color/bright_foreground_material_dark" />
+    </RelativeLayout>
+
+</LinearLayout>
